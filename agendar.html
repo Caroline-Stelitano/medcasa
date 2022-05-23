@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/f395ea22f9.js" crossorigin="anonymous"></script>
+    <title>Agendar | MedCasa</title>
+</head>
+<body id="agendar">
+    <main>
+        <nav>
+            <ul class="navegacao" >
+                <li><img src="img/logo.nav.png" alt="logo" width="150" height="90"></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="comofunciona.html">Como funciona</a></li>
+                <li><a href="agendar.html">Agendar</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>            
+    </main>
+    <div class="container">
+        <div class="form">
+            <h2>Desfrute de cuidados médicos sem sair de casa.</h2>
+            <form action="agendado-com-sucesso.html">
+                <select name="exame" required>
+                    <option value="">Exames disponíveis</option>
+                    <option value="0">Exame de sangue</option>
+                    <option value="1">Exame de urina</option>
+                    <option value="2">Exame de fezes</option>
+                    <option value="3">Homecare</option>
+                    <option value="4">Vacinas</option>
+                </select>
+                <select name="regiao" required>
+                    <option value="">Regiões disponíveis</option>
+                    <option value="0">São Paulo, SP</option>
+                    <option value="1">Rio de Janeiro, RJ</option>
+                    <option value="2">Belo Horizonte, MG</option>
+                    <option value="3">Vitória, ES</option>
+                </select>
+                <select name="dia" required>
+                    <option value="">Dia</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select name="mes" required>
+                    <option value="">Mês</option>
+                    <option value="Janeiro">Janeiro</option>
+                    <option value="Fevereiro">Fevereiro</option>
+                    <option value="Março">Março</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Maio">Maio</option>
+                    <option value="Junho">Junho</option>
+                    <option value="Julho">Julho</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Setembro">Setembro</option>
+                    <option value="Outubro">Outubro</option>
+                    <option value="Novembro">Novembro</option>
+                    <option value="Dezembro">Dezembro</option>
+                </select>
+                <select name="hora" required>
+                    <option value="">Hora</option>
+                    <option value="09">09:00</option>
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                </select>
+                <div class="agendar_wrapper">
+                    <input type="submit" value="Agendar exame">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-box">
+                <div class="company-footer">
+                    <h2><img src ="img/logo.login.png"></h2>
+                    <p>Médicos a todo momento, a toda hora.</p>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="articles-footer">
+                    <h2>Atendimento</h2>
+                    <ul class="footer-list footer-article-list">
+                        <li>
+                            <h3>São Paulo:(11) 3049-6999</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Nos encontre nas redes sociais</h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="https://pt-br.facebook.com/">
+                            <i class="fab fa-facebook-square"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://br.linkedin.com/">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Linkedin</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p>® MedCasa - 2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script type="text/javascript">
+
+    // Pegar parâmetros da URL
+    let url_string = window.location.href
+    let url = new URL(url_string);
+    let paramExame = url.searchParams.get("exame");
+    let paramRegiao = url.searchParams.get("regiao");
+    
+    // Selecionar SELECTs no html
+    let selectExame = document.querySelector("select[name='exame']");
+    let selectRegiao = document.querySelector("select[name='regiao']");
+
+    // Trocar os elementos selecionados
+    console.log(paramExame);
+    if (paramExame != null) {
+    selectExame.value = paramExame;
+    }
+    if (paramRegiao != null) {
+        selectRegiao.value = paramRegiao;
+    }
+</script>
+</html>
