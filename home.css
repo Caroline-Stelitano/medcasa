@@ -199,6 +199,9 @@ input[type=submit]:hover {
 }
 
 /* Agendar */
+#agendar {
+	background-color: rgb(243, 241, 241);
+}
 
 #agendar .form {
 	padding: 120px 0 180px;
@@ -287,9 +290,9 @@ input[type=submit]:hover {
 
 footer {
     background-color: #FFF;
-    padding-top: 5em;
+    padding-top: 3em;
     padding-bottom: 40px;
-	border-top: 1px solid #666;
+	border-top: 0.5px solid #666;
 }
 
 footer h2, footer p ,footer a, footer span {
