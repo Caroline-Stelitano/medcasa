@@ -230,6 +230,7 @@ input[type=submit]:hover {
 
 #agendado-com-sucesso .icone {
 	font-size:4em;
+	color: rgb(118 183 20);
 }
 
 #agendado-com-sucesso .form a {
