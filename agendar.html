@@ -158,13 +158,13 @@
 <script type="text/javascript">
 
     // Pegar parâmetros da URL
-    let url_string = window.location.href
-    let url = new URL(url_string);
-    let paramExame = url.searchParams.get("exame");
+    let url_string = window.location.href                   //pega o endereço do browser, a url do agendar com os parametros que vem da home
+    let url = new URL(url_string);                          //para pegar os parametros preciso de um objeto URL. A classe recebe o parametro url_string
+    let paramExame = url.searchParams.get("exame");         //vc passa a chave, nesse caso exame, e ele devolve o valor, que é o value pego da url que veio da home.
     let paramRegiao = url.searchParams.get("regiao");
     
     // Selecionar SELECTs no html
-    let selectExame = document.querySelector("select[name='exame']");
+    let selectExame = document.querySelector("select[name='exame']");     //pegando o elemento select 'exame' no Dom
     let selectRegiao = document.querySelector("select[name='regiao']");
 
     // Trocar os elementos selecionados
@@ -177,3 +177,6 @@
     }
 </script>
 </html>
+
+<!-- Nao posso chamar o searchParams a partir de um string, pois ele é um atributo da classe URL. 
+    Entao instancio a classe URL para pegar os parametros. -->
